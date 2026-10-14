@@ -1,0 +1,52 @@
+import { NoticeboardPost } from '@/types';
+
+export const SEED_NOTICEBOARD: NoticeboardPost[] = [
+  {
+    id: 'nb-post-01',
+    authorLabel: 'Taluk Library Readers Forum',
+    authorArea: 'Ward 4 - Fort Area',
+    category: 'ANNOUNCEMENT',
+    title: 'Free Weekend Competitive Exam Guidance at Taluk Public Library',
+    content: 'Free study materials, previous question papers, and weekly coaching for FDA, SDA, and KPSC aspirants are being hosted every Saturday from 2 PM to 5 PM at the City Central Library branch.',
+    publishedAt: '2026-10-12T11:00:00Z',
+    moderationStatus: 'APPROVED',
+    likesCount: 28,
+    isDemoRecord: true,
+  },
+  {
+    id: 'nb-post-02',
+    authorLabel: 'Citizen Volunteer Circle',
+    authorArea: 'Ward 2 - Vinayakanagar',
+    category: 'VOLUNTEER',
+    title: 'Volunteers Needed: Sunday Senior Citizen Digital Assistance Desk',
+    content: 'We are organizing an informal kiosk at the Community Hall to help elderly residents submit digital life certificates (Jeevan Pramaan) and check Aadhaar-linked pension statuses. 5 youth volunteers needed.',
+    publishedAt: '2026-10-10T14:30:00Z',
+    moderationStatus: 'APPROVED',
+    likesCount: 19,
+    isDemoRecord: true,
+  },
+  {
+    id: 'nb-post-03',
+    authorLabel: 'Resident Commuter Forum',
+    authorArea: 'Ward 1 - Railway Station Road',
+    category: 'CIVIC_ALERT',
+    title: 'Scheduled BESCOM Maintenance Feeder Shutdown on Thursday',
+    content: 'BESCOM has announced scheduled tree branch trimming and 11kV substation insulator replacement on Thursday from 10:00 AM to 03:00 PM affecting Railway Station road and Subhash Nagar lines.',
+    publishedAt: '2026-10-13T08:15:00Z',
+    moderationStatus: 'APPROVED',
+    likesCount: 45,
+    isDemoRecord: true,
+  },
+  {
+    id: 'nb-post-04',
+    authorLabel: 'M. Ramesh',
+    authorArea: 'Old Bus Stand Junction',
+    category: 'LOST_FOUND',
+    title: 'Found: Black Leather Document Folder near Old Bus Stand Ticket Counter',
+    content: 'Found a black zipper folder containing land survey sketches and electricity bills near the bus stand. The rightful owner can collect it from the station master office after verification.',
+    publishedAt: '2026-10-11T16:45:00Z',
+    moderationStatus: 'APPROVED',
+    likesCount: 12,
+    isDemoRecord: true,
+  }
+];
