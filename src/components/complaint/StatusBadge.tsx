@@ -65,7 +65,7 @@ export function StatusBadge({ status, size = 'md' }: StatusBadgeProps) {
   const Icon = current.icon;
 
   const sizeClasses = {
-    sm: 'px-1.5 py-0.5 text-[10px] gap-1',
+    sm: 'px-2 py-0.5 text-xs gap-1',
     md: 'px-2.5 py-1 text-xs gap-1.5',
     lg: 'px-3 py-1.5 text-sm gap-2 font-semibold',
   };

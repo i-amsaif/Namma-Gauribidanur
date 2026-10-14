@@ -52,8 +52,8 @@ const config: Config = {
         }
       },
       fontFamily: {
-        sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
-        kannada: ['Noto Sans Kannada', 'sans-serif'],
+        sans: ['Inter', 'Noto Sans Kannada', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+        kannada: ['Noto Sans Kannada', 'Inter', 'sans-serif'],
       },
     },
   },

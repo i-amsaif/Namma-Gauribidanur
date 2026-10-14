@@ -32,11 +32,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="flex flex-col min-h-screen bg-[#FAFAF7] text-slate-800 antialiased selection:bg-amber-100 selection:text-amber-900">
+      <body className="flex flex-col min-h-screen bg-slate-50 text-slate-900 antialiased selection:bg-civic-100 selection:text-civic-900">
         <AppProvider>
           <DisclaimerBanner />
           <Header />
-          <main className="flex-1 safe-bottom-padding lg:pb-0">
+          <main className="flex-1 safe-bottom-padding lg:pb-8">
             {children}
           </main>
           <NotificationsModal />
